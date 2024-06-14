@@ -93,11 +93,11 @@ document.addEventListener('DOMContentLoaded', function() {
     const mobileMenu = document.getElementById('mobile-menu');
     const closeMenuButton = document.getElementById('close-menu-button');
     
-    menuButton.addEventListener('click', function() {
-        mobileMenu.classList.remove('hidden');
+    menuButton?.addEventListener('click', function() {
+        mobileMenu?.classList.remove('hidden');
     });
-    closeMenuButton.addEventListener('click', function() {
-        mobileMenu.classList.add('hidden');
+    closeMenuButton?.addEventListener('click', function() {
+        mobileMenu?.classList.add('hidden');
     });
 });
 
